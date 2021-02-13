@@ -1,4 +1,4 @@
-//Input only co-ordinates x and y.
+//Input x and y co-ordinates.
 package tictactoe;
 import java.util.*;
 public class Main {
@@ -256,9 +256,6 @@ public class Main {
                 break;
             } else if(k == 0 && k1 == 0 && x + y == 9) {
                 System.out.println("Draw");
-                break;
-            } else if (k == 1 && k1 == 1) {
-                System.out.println("Impossible");
                 break;
             }
         }
